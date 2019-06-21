@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,200i,300,300i,400,400i,900');
+
+/*Dash-Wide Class*/
+.MasterDashClass {
+	/*width:100%;*/
+	/*padding-top: 50px;*/
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	max-width: 1600px;
+}
+
+/*Debugging outlines*/
+*,*::before,*::after {
+	/*outline: 1px solid red;*/
+}
+
+.titleDiv {
+/*padding-bottom: 20px;*/
+	height:100px;
+}
+
+/*Bender*/
+.titleDiv img {
+
+	/*bender options*/
+
+	/*height: 100%;
+	width: 100px;
+	float: left;*/
+
+	/*Asurion Logo options*/
+	height: 50px;
+    width: 50px;
+    float: left;
+    padding-top: 27px;
+    padding-right: 1%;
+}
+
+/*Machine Learning Team*/
+.titleDiv h2 {
+	float: left;
+	padding-top:16px;
+	font-family: 'Raleway';
+	font-weight: 300;
+}
+
+.horizontal-separator {
+	width: 100%;
+	height: 10px;
+	float:right;
+}
+
+/*Blue Box containing "Exec Dashboard"*/
+.top-left-panel {
+	float: left;
+	width: 100%;
+	height:105px;
+	background-color: #044885;
+	display: inline-flex;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/*Exec dashboard*/
+.top-left-panel H1 {
+	font-family: 'Raleway';
+	font-size: 35pt;
+	font-weight:300;
+	color: white;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+/*Summary of dashboard - currently disabled*/
+.top-left-panel P {
+	display: none;
+}
+
+/*Font-Awesome*/
+.top-left-panel i {
+	font-size: 33px;
+	padding-top: 32px;
+	padding-left: 17px;
+	color: white;
+}
+
+/*Dates (Div) on the top-right side of the dashboard*/
+.date-ranges {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+/*Dates (P) on the top-right side of the dashboard*/
+.date-ranges P {
+	display: block;
+    color: white;
+    padding-top: 35px;
+    font-size: 23px;
+    padding-right: 29px;
+    font-family: Raleway;
+    font-weight: 300;
+}
+
+/*.top-right-panel {
+ Currently not being used
+}
+ */
+
+ .control-center {
+	display: inline-flex;
+	width: 50%;
+}
+
+/* drop down */
+.dropdown1 {
+    /*width:30%;*/
+    text-align: middle;
+    padding-left: 37px;
+}
+
+#my-dropdown {
+	width: 100%;
+	margin-left: -6%;
+}
+
+.dropdown-description {
+	width: 17%;
+/*	position: relative;
+  top: 50%;
+  transform: translateY(-50%);*/
+}
+
+.dropdown-description p {
+	margin-top: 4px;
+	font-family: 'Raleway';
+	font-weight: 400;
+}
+
+
+/* left side of the dash */
+.left-side-class{
+    width: 50%;
+    float: left;
+}
+
+/* right side of the dash */
+.right-side-class{
+    width: 45%;
+    float: right;
+}
+
+
+
+/*Fulfillment Model#1 */
+#model-title {
+	padding-left: 20px;
+	font-size: 2em;
+	/*z-index: 1;*/
+	position: relative;
+	font-family: 'Raleway';
+	/*font-size: 35pt;*/
+	font-weight:500;
+	color: white;
+	background-color: #c41230;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+.confusion1 h4 {
+    padding-left: 20px;
+    font-size: 2em;
+    position: relative;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: white;
+    background-color: #c41230;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 24pt
+}
+
+.confusion1 tr {
+	text-align: center;
+}
+ 
+div.confusion1 div table tr th {
+	text-align: center;
+}
+
+div.confusion1 div table tr td {
+	text-align: center;
+}
+
+.confusion1 H4 {
+	font-size: 2em;
+}
+
+.confusion1 tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+/*just the headers*/
+.confusion1	th {
+	/*font-size:2em;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+/*just the data*/
+.confusion1 td{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	/*font-size:2em;*/
+	font-family: 'Open Sans';
+	font-weight: 400;
+	text-align: center;
+}
+
+.confusion1 table {
+	width: 100%;
+}
+
+.confusion2 {
+	font-size: 1em;
+	padding-top: 15px;
+	color:'rgb(148, 103, 189)';
+}
+
+
+
+.confusion2 H4 {
+	padding-left: 20px;
+    font-size: 2em;
+    position: relative;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: white;
+    background-color: #c41230;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 24pt
+}
+
+/*all rows*/
+.confusion2 tr{
+	font-size:1em;
+}
+
+.confusion2 tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+/*just the headers*/
+.confusion2	th {
+	/*font-size:2em;*/
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+/*just the data*/
+.confusion2 td {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	/*font-size:2em;*/
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+
+.confusion2 table {
+	width: 100%;
+}
+
+
+.definitions {
+	font-size: 1em;
+	/*padding-left: 35px;*/
+}
+
+.definitions H2 {
+	padding-left: 20px;
+    font-size: 2em;
+    position: relative;
+    font-family: 'Raleway';
+    font-weight: 500;
+    color: white;
+    background-color: #c41230;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-size: 24pt
+
+}
+
+.definitions H3 {
+	font-size: 1.2em;
+	font-family: 'Open Sans';
+	font-weight: 400;
+
+}
+
+.definitions p {
+	font-size: 1em;
+	/*font-family: 'Raleway';*/
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
