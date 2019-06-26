@@ -71,7 +71,7 @@
 	font-size: 35pt;
 	font-weight:300;
 	color: white;
-	padding-top: 20px;
+	margin-top: 20px;
 	padding-left: 20px;
 }
 
@@ -98,11 +98,12 @@
 .date-ranges P {
 	display: block;
     color: white;
-    padding-top: 35px;
+/*     padding-top: 35px; */
     font-size: 23px;
     padding-right: 29px;
     font-family: Raleway;
     font-weight: 300;
+	margin-top: 38px;
 }
 
 /*.top-right-panel {
@@ -332,3 +333,6 @@ div.confusion1 div table tr td {
 	font-weight: 400;
 }
 
+.confusion2 tr > th {
+    text-align: left;
+}
