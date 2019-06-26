@@ -25,6 +25,20 @@
 .titleDiv img {
     /* height: 50px; */
     /* width: 50px; */
+/*     float: left;
+    padding-top: 27px;
+    padding-right: 1%; */
+    display: none;
+/*     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4uX7iw4X_NNnGW2iGuDgKnYPJPZB9QetI5bo7pKo1TTabRJiC);
+    background-size: cover;
+    width: 302px;
+    height: 46px;
+    margin-right: 14px; */
+}
+
+.newLogo {
+    /* height: 50px; */
+    /* width: 50px; */
     float: left;
     padding-top: 27px;
     padding-right: 1%;
